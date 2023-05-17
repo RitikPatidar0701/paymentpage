@@ -1,0 +1,201 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500&display=swap');
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+body {
+  background-image: url("../public/images/background.jpg");
+
+}
+.App {
+  width: 100%;
+  display: flex;
+  padding: 50px 0;
+ 
+}
+
+/*Navbar css */
+.navbar-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background: #ffff;
+  width: 100%;
+  font-family: 'Roboto', sans-serif;
+
+}
+.left-nav,
+.rigth-nav {
+  width: 50%;
+  display: flex;
+  align-items: center;
+  padding: 15px 10px;
+  justify-content: space-evenly;
+}
+.rigth-nav {
+  justify-content: right;
+  padding-right: 50px;
+}
+.left-nav img {
+  width: 100px;
+}
+
+.left-nav ul li {
+  display: inline-block;
+  padding: 0 10px;
+  list-style: none;
+  margin-right: 20px;
+}
+.left-nav ul li a {
+  margin-right: 8px;
+}
+a {
+  text-decoration: none;
+  color: #3c4852;
+  cursor: pointer;
+}
+i {
+  cursor: pointer;
+}
+.rigth-nav .login-btn {
+  margin: 0 30px;
+}
+.rigth-nav ul li {
+  list-style: none;
+}
+.joinnow {
+  background: rgb(0, 150, 255);
+  background: linear-gradient(
+    90deg,
+    rgba(0, 150, 255, 1) 24%,
+    rgba(0, 72, 255, 1) 100%
+  );
+  padding: 5px 20px;
+  border: none;
+  border-radius: 50px;
+  color: #ffff;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+/* Styling info page*/
+
+.info-container {
+  color: #ffff;
+  width: 40%;
+  margin-left: 17%;
+  padding-top: 50px;
+  font-family: 'Roboto', sans-serif;
+
+}
+.text-blue {
+  color: #0048ff;
+}
+.price {
+  text-decoration-line: line-through;
+  text-decoration-color: #ff0000;
+}
+.info-offers {
+  margin-top: 20px;
+}
+.info-offers li {
+  list-style: none;
+  font-size: 20px;
+  margin-bottom: 20px;
+}
+.info-offers li i {
+  font-size: 25px;
+
+  text-align: left;
+  padding: 10px;
+}
+
+/* Styling Payment Page */
+.payment-container {
+  width: 30%;
+  border: none;
+  border-radius: 5px;
+  background: #ffff;
+  color: black;
+}
+.payment-top {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin: 10px 0;
+  font-family: 'Roboto', sans-serif;
+
+}
+.sign-up,
+.subscribe {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  cursor: pointer;
+}
+.btn1-2{
+  padding:3px 8px;
+background: #3d6eec;
+border-radius: 50%;
+color: #ffff;
+}
+
+.plans-offers{
+  padding: 10px;
+
+}
+
+.plan{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;
+ border-radius: 5px; 
+ margin-bottom: 10px;
+ cursor: pointer;
+ position: relative;
+}
+.text-left{
+  width: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+.offer-popup{
+  position: absolute;
+ 
+  top: 0;
+  left: 20%;
+  color: white;
+  padding: 0 5px;
+  font-size: 12px;
+  border-bottom-left-radius: 5px;
+  border-bottom-right-radius: 5px;
+}
+.subscription-fee{
+  display: flex;
+  align-items: center;
+  padding: 10px 20px;
+  justify-content: space-between;
+  color: #3c4852;
+}
+.buttons{
+  margin-left: 20px;
+  font-family: 'Roboto', sans-serif;
+}
+button{
+  border: none;
+margin: 5px 20px;
+  padding: 10px 30px;
+  background-color: transparent;
+}
+ 
+.rozarpay{
+  margin: 10px 23px;
+}
+.rozarpay img{
+  width: 110px;
+  cursor: pointer;
+}
+
